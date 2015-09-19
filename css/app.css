@@ -7,8 +7,12 @@ body {
 }
 h1 {
   font-size: 20px;
-  line-height: 40px;
-  margin-left: 15px;
+  line-height: 50px;
+  margin: 0 0 0 15px ;
+}
+h4 {
+  font-family: cursive;
+  font-weight: 600;
 }
 ul {
   padding: 0;
@@ -24,8 +28,9 @@ strong {
   color: #0cf;
 }
 p {
-  letter-spacing: 0.2px;
+  letter-spacing: 0.3px;
   margin: 0 15px;
+  line-height: 22px;
 }
 
 /* Navigation */
@@ -39,7 +44,7 @@ nav {
   width: 5px;
   height: 5px;
   position: absolute;
-  top: 17px;
+  top: 24px;
   right: 35px;
 }
 #hamburger:before, #hamburger:after, #hamburger span:before {
