@@ -1,0 +1,15 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #444;
+}
+h1 {
+  font-size: 20px;
+}
+li {
+  list-style-type: none;
+}
+a {
+  color: #0cf;
+  text-decoration: none;
+}
