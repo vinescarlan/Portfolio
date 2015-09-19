@@ -20,6 +20,13 @@ a {
   color: #0cf;
   text-decoration: none;
 }
+strong {
+  color: #0cf;
+}
+p {
+  letter-spacing: 0.2px;
+  margin: 0 15px;
+}
 
 /* Navigation */
 
@@ -67,4 +74,10 @@ nav {
 #off-canvas a {
   color: #fff;
   font-size: 40px;
+}
+
+/* Page content */
+
+.page-content {
+  text-align: center;
 }
