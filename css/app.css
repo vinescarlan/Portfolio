@@ -132,3 +132,17 @@ nav {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
+.code-link {
+  color: #aaa;
+  font-size: 15px;
+  line-height: 60px;
+  padding: 10px 15px;
+  border: 1px solid #aaa;
+  text-transform: uppercase;
+  transition: all 0.5s ease-out;
+}
+.code-link:hover {
+  color: #fff;
+  background: #999;
+  border-color: #999;
+}
