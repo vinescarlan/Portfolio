@@ -85,7 +85,7 @@ nav {
   color: #fff;
   font-size: 40px;
 }
-.menu-visible {
+.menu-visible #off-canvas {
   z-index: 99;
   transform: translateX(0) !important;
 }
