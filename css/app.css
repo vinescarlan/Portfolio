@@ -8,7 +8,7 @@ body {
 h1 {
   font-size: 20px;
   line-height: 50px;
-  margin: 0 0 0 15px ;
+  margin: 0 0 0 15px;
 }
 h4 {
   font-family: cursive;
@@ -48,13 +48,16 @@ nav {
   right: 12px;
   cursor: pointer;
 }
-#hamburger a:before, #hamburger a:after, #hamburger span:before {
+#hamburger a:before,
+#hamburger a:after,
+#hamburger span:before {
   content: "";
   display: block;
   width: 25px;
   height: 4px;
   border-radius: 5px;
   background: #444;
+  transition: all 0.3s ease-out;
   position: absolute;
 }
 #hamburger span:before {
@@ -66,14 +69,43 @@ nav {
 #hamburger a:after {
   top: 16px;
 }
+.menu-visible #hamburger *:before,
+.menu-visible #hamburger *:after {
+  background: #fff;
+  z-index: 100;
+}
+.menu-visible #hamburger span:before {
+  opacity: 0;
+  -ms-transform: translateX(-10px);
+  -webkit-transform: translateX(-10px);
+  transform: translateX(-10px);
+}
+.menu-visible #hamburger a:before {
+  top: 8px;
+  left: -1px;
+  width: 26px;
+  -ms-transform: rotate(43deg);
+  -webkit-transform: rotate(43deg);
+  transform: rotate(43deg);
+}
+.menu-visible #hamburger a:after {
+  top: 8px;
+  left: -1px;
+  width: 26px;
+  -ms-transform: rotate(-43deg);
+  -webkit-transform: rotate(-43deg);
+  transform: rotate(-43deg);
+}
 #off-canvas {
   width: 100vw;
   background: #00bbdf;
   text-align: center;
   position: absolute;
   top: -13px;
+  -ms-transform: translateX(100vw);
+  -webkit-transform: translateX(100vw);
   transform: translateX(100vw);
-  transition: transform 0.4s ease-out;
+  transition: transform 0.3s ease-out;
 }
 #off-canvas ul {
   padding: 10px 0;
@@ -87,6 +119,8 @@ nav {
 }
 .menu-visible #off-canvas {
   z-index: 99;
+  -ms-transform: translateX(0) !important;
+  -webkit-transform: translateX(0) !important;
   transform: translateX(0) !important;
 }
 
