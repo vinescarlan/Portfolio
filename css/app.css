@@ -149,3 +149,12 @@ nav {
   background: #999;
   border-color: #999;
 }
+footer {
+  background: #444;
+}
+footer p {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 15px 5px;
+}
