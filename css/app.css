@@ -41,13 +41,14 @@ nav {
   position: relative;
 }
 #hamburger {
-  width: 5px;
-  height: 5px;
+  width: 27px;
+  height: 25px;
   position: absolute;
-  top: 24px;
-  right: 35px;
+  top: 16px;
+  right: 12px;
+  cursor: pointer;
 }
-#hamburger:before, #hamburger:after, #hamburger span:before {
+#hamburger a:before, #hamburger a:after, #hamburger span:before {
   content: "";
   display: block;
   width: 25px;
@@ -56,11 +57,14 @@ nav {
   background: #444;
   position: absolute;
 }
-#hamburger:before {
-  top: -8px;
-}
-#hamburger:after {
+#hamburger span:before {
   top: 8px;
+}
+#hamburger a:before {
+  top: 0;
+}
+#hamburger a:after {
+  top: 16px;
 }
 #off-canvas {
   width: 100vw;
