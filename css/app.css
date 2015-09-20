@@ -86,3 +86,49 @@ nav {
 .page-content {
   text-align: center;
 }
+.mac-window {
+  height: 200px;
+  width: 95%;
+  margin: 10px auto;
+  box-shadow: 0px 0px 5px #444;
+  border-radius: 3px;
+}
+.mac-window .top-part {
+  background: #eee;
+  height: 35px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.lights {
+  float: left;
+  margin-left: 10px;
+}
+.live-link {
+  color: #447;
+  font-size: 15px;
+  float: right;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  margin-right: 10px;
+}
+.lights span {
+  font-size: 33px;
+  margin: 0;
+  line-height: 35px;
+}
+.lights span:first-child {
+  color: #f77;
+}
+.lights span:nth-child(2) {
+  color: #fd5;
+}
+.lights span:nth-child(3) {
+  color: #7f4;
+}
+.project-image {
+  height: 165px;
+  width: 100%;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
