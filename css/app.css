@@ -84,6 +84,9 @@ nav {
   color: #fff;
   font-size: 40px;
 }
+.menu-visible {
+  transform: translateX(0);
+}
 
 /* Page content */
 
