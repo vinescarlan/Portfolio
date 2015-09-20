@@ -86,6 +86,9 @@ nav {
 .page-content {
   text-align: center;
 }
+.project-item {
+  margin: 30px auto;
+}
 .mac-window {
   height: 200px;
   width: 95%;
