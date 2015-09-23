@@ -199,6 +199,9 @@ nav {
   font-size: 1.1em;
   margin-top: 8px;
 }
+
+/* About Page */
+
 .code-link {
   color: #aaa;
   font-size: 15px;
@@ -212,6 +215,11 @@ nav {
   color: #fff;
   background: #999;
   border-color: #999;
+}
+.skill-item img {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
 }
 footer {
   background: #444;
