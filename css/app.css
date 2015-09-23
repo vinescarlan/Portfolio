@@ -221,6 +221,21 @@ nav {
   margin: 0 auto;
   padding: 20px;
 }
+#codecademy-profile {
+  color: #fff;
+  background: #32a9de;
+  margin: 15px 5px;
+  padding: 15px;
+  border-radius: 4px;
+}
+#codecademy-profile a {
+  color: #fff;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  line-height: 2.5em;
+  border: 2px solid #fff;
+}
 footer {
   background: #444;
 }
