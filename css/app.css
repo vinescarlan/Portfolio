@@ -1,6 +1,7 @@
 /* General Styles */
 
-html, body {
+html,
+body {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #444;
   margin: 0;
@@ -139,6 +140,7 @@ nav {
   -webkit-transform: translateX(0) !important;
   transform: translateX(0) !important;
 }
+
 /* Page content */
 
 .page-content {
@@ -235,6 +237,28 @@ nav {
   padding: 5px 20px;
   line-height: 2.5em;
   border: 2px solid #fff;
+}
+
+/* Contact Page */
+
+#email {
+  font-size: 1.4em;
+  position: relative;
+  bottom: 8px;
+  z-index: -1;
+}
+#networks {
+  color: #fff;
+  background: #32a9de;
+  margin: 15px 5px;
+  padding: 15px;
+  border-radius: 4px;
+}
+#networks img {
+  width: 40px;
+  height: 40px;
+  margin: 15px 5px;
+  border: 1px solid #fff;
 }
 footer {
   background: #444;
