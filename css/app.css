@@ -32,11 +32,13 @@ a {
 }
 strong {
   color: #0cf;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
 }
 p {
-  letter-spacing: 0.3px;
+  letter-spacing: 0.6px;
   margin: 0 15px;
-  line-height: 22px;
+  line-height: 25px;
 }
 
 /* Navigation */
@@ -131,7 +133,6 @@ nav {
   -webkit-transform: translateX(0) !important;
   transform: translateX(0) !important;
 }
-
 /* Page content */
 
 .page-content {
