@@ -31,7 +31,7 @@ li {
   list-style-type: none;
 }
 a {
-  color: #bdc3c7;
+  color: #fff;
   text-decoration: none;
   transition: color 0.3s ease-out;
 }
@@ -218,12 +218,11 @@ nav {
   font-size: 15px;
   line-height: 60px;
   padding: 10px 15px;
-  border: 1px solid #bdc3c7;
+  border: 1px solid #fff;
   text-transform: uppercase;
   transition: all 0.4s ease-out;
 }
 .code-link:hover {
-  color: #fff;
   background: #34495e;
   border-color: #34495e;
 }
