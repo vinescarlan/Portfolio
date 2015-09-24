@@ -156,13 +156,8 @@ nav {
 }
 .project-item {
   text-align: center;
-  float: left;
 }
 .mac-window {
-  height: 15%;
-  width: 95%;
-  max-height: 500px;
-  max-width: 500px;
   margin: 10px;
   border-radius: 3px;
 }
