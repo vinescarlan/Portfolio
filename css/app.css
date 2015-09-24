@@ -267,7 +267,18 @@ footer p {
 /* Medium Screen */
 
 @media only screen and (min-width: 64.063em) {
-  html, body {
+  html,
+  body {
     font-size: 110%;
+  }
+  #codecademy-profile.medium-8 {
+    height: 80px;
+  }
+  #codecademy-profile.medium-8 * {
+    float: left;
+    line-height: 40px;
+  }
+  #codecademy-profile.medium-8 a {
+    float: right;
   }
 }
