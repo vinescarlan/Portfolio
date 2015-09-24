@@ -261,3 +261,11 @@ footer p {
   text-align: center;
   padding: 15px 5px;
 }
+
+/* Medium Screen */
+
+@media only screen and (min-width: 64.063em) {
+  html, body {
+    font-size: 110%;
+  }
+}
