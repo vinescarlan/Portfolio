@@ -60,6 +60,7 @@ nav {
   background: #fdfdfd;
   border-bottom: 1.8px solid #eee;
   position: fixed;
+  z-index: 99;
 }
 #hamburger {
   width: 27px;
