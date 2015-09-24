@@ -157,6 +157,8 @@ nav {
 }
 .project-item {
   text-align: center;
+  margin: 2em auto;
+  max-width: 600px;
 }
 .mac-window {
   margin: 10px;
