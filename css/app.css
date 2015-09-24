@@ -3,21 +3,24 @@
 html,
 body {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #444;
+  color: #fff;
   margin: 0;
+  background: #1abc9c;
   position: relative;
   width: 100%;
   overflow-x: hidden;
 }
 h1 {
+  color: #34495e;
   font-size: 20px;
   line-height: 50px;
   margin: 0 0 0 15px;
 }
 h4 {
+  color: #fff;
   font-weight: 500;
   letter-spacing: 0.4px;
-  background: #e5edef;
+  background: #34495e;
   line-height: 25px;
   padding: 30px 20px;
 }
@@ -28,8 +31,12 @@ li {
   list-style-type: none;
 }
 a {
-  color: #0cf;
+  color: #bdc3c7;
   text-decoration: none;
+  transition: color 0.3s ease-out;
+}
+a:hover {
+  color: #34495e;
 }
 p {
   letter-spacing: 0.6px;
@@ -37,7 +44,6 @@ p {
   line-height: 25px;
 }
 strong {
-  color: #019dc4;
   letter-spacing: 1.3px;
   text-transform: uppercase;
 }
@@ -57,8 +63,8 @@ aside {
 nav {
   width: 100%;
   height: 52px;
-  background: #fdfdfd;
-  border-bottom: 1.8px solid #eee;
+  background: #fff;
+  border-bottom: 1.8px solid #16a085;
   position: fixed;
   z-index: 99;
 }
@@ -163,9 +169,10 @@ nav {
 .mac-window {
   margin: 10px;
   border-radius: 3px;
+  box-shadow: 0px 0px 10px #34495e;
 }
 .mac-window .top-part {
-  background: #eee;
+  background: #ecf0f1;
   height: 35px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -175,7 +182,6 @@ nav {
   margin-left: 10px;
 }
 .live-link {
-  color: #447;
   font-size: 15px;
   float: right;
   line-height: 35px;
@@ -208,23 +214,22 @@ nav {
   font-size: 1.1em;
   margin-top: 8px;
 }
-
-/* About Page */
-
 .code-link {
-  color: #aaa;
   font-size: 15px;
   line-height: 60px;
   padding: 10px 15px;
-  border: 1px solid #aaa;
+  border: 1px solid #bdc3c7;
   text-transform: uppercase;
-  transition: all 0.5s ease-out;
+  transition: all 0.4s ease-out;
 }
 .code-link:hover {
   color: #fff;
-  background: #999;
-  border-color: #999;
+  background: #34495e;
+  border-color: #34495e;
 }
+
+/* About Page */
+
 .skill-item img {
   display: block;
   margin: 0 auto;
@@ -254,7 +259,7 @@ nav {
   border: 1px solid #fff;
 }
 footer {
-  background: #444;
+  background: #34495e;
   clear: both;
 }
 footer p {
