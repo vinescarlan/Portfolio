@@ -79,6 +79,11 @@ aside {
   background: #34495e;
   border: none;
 }
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  margin: 0 3px;
+}
 
 /* Navigation */
 
