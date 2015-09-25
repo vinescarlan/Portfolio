@@ -43,6 +43,9 @@ p {
   margin: 0 15px;
   line-height: 25px;
 }
+span {
+  color: #00bbdf;
+}
 strong {
   letter-spacing: 1.3px;
   text-transform: uppercase;
@@ -285,7 +288,7 @@ footer {
 }
 footer p {
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   padding: 15px 5px;
 }
