@@ -188,7 +188,7 @@ nav {
 /* Page content */
 
 .page-content {
-  padding-top: 50px;
+  padding: 50px 0;
   text-align: center;
 }
 .project-item {
