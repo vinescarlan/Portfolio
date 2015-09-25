@@ -40,7 +40,7 @@ a:hover {
 }
 p {
   letter-spacing: 0.6px;
-  margin: 0 15px;
+  margin: 1em 15px;
   line-height: 25px;
 }
 span {
@@ -293,7 +293,8 @@ footer p {
   color: #fff;
   font-size: 16px;
   text-align: center;
-  padding: 15px 5px;
+  padding: 1em 5px;
+  margin: 0;
 }
 footer .row section:first-child {
   border: 2px solid #fff;
