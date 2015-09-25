@@ -35,9 +35,6 @@ a {
   text-decoration: none;
   transition: color 0.3s ease-out;
 }
-a:hover {
-  color: #34495e;
-}
 p {
   letter-spacing: 0.6px;
   margin: 0 15px;
@@ -56,6 +53,18 @@ aside {
   margin: 15px;
   padding: 15px;
   border-radius: 4px;
+}
+.button {
+  font-size: 15px;
+  line-height: 60px;
+  padding: 10px 15px;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  transition: all 0.4s ease-out;
+}
+.button:hover {
+  background: #00bbdf;
+  border-color: #00bbdf;
 }
 
 /* Navigation */
