@@ -57,25 +57,22 @@ aside {
   padding: 15px;
   border-radius: 4px;
 }
-.button-primary {
+.button-primary, .button-secondary {
   font-size: 16px;
   padding: 10px 20px;
   letter-spacing: 1.2px;
-  background: #00bbdf;
   text-transform: uppercase;
   transition: all 0.4s ease-out;
+}
+.button-primary {
+  background: #00bbdf;
 }
 .button-primary:hover {
   color: #fff;
   background: #00d6ff;
 }
 .button-secondary {
-  font-size: 16px;
-  padding: 10px 20px;
-  letter-spacing: 1.2px;
   border: 1px solid #fff;
-  text-transform: uppercase;
-  transition: all 0.4s ease-out;
 }
 .button-secondary:hover {
   color: #fff;
