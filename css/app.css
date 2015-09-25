@@ -88,6 +88,9 @@ aside {
   height: 40px;
   margin: 0 3px;
 }
+p.not-supported {
+  color: #ff2222;
+}
 
 /* Navigation */
 
