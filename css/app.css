@@ -298,6 +298,11 @@ footer .row section:first-child {
   width: 90%;
   margin: 20px auto 0;
 }
+footer .social-icons {
+  background: #00bbdf;
+  padding: 15px;
+  margin: 0 -15px;
+}
 
 /* Medium Screen */
 
