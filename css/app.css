@@ -55,15 +55,15 @@ aside {
   border-radius: 4px;
 }
 .button {
-  font-size: 15px;
-  padding: 10px 15px;
-  border: 1px solid #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  letter-spacing: 1.2px;
+  background: #00bbdf;
   text-transform: uppercase;
   transition: all 0.4s ease-out;
 }
 .button:hover {
-  background: #00bbdf;
-  border-color: #00bbdf;
+  background: #00d6ff;
 }
 
 /* Navigation */
