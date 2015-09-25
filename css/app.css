@@ -240,18 +240,6 @@ nav {
   font-size: 1.1em;
   margin-top: 8px;
 }
-.code-link {
-  font-size: 15px;
-  line-height: 60px;
-  padding: 10px 15px;
-  border: 1px solid #fff;
-  text-transform: uppercase;
-  transition: all 0.4s ease-out;
-}
-.code-link:hover {
-  background: #34495e;
-  border-color: #34495e;
-}
 
 /* About Page */
 
