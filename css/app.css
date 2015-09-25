@@ -54,7 +54,7 @@ aside {
   padding: 15px;
   border-radius: 4px;
 }
-.button {
+.button-primary {
   font-size: 16px;
   padding: 10px 20px;
   letter-spacing: 1.2px;
@@ -62,7 +62,7 @@ aside {
   text-transform: uppercase;
   transition: all 0.4s ease-out;
 }
-.button:hover {
+.button-primary:hover {
   background: #00d6ff;
 }
 
