@@ -278,6 +278,12 @@ footer p {
   text-align: center;
   padding: 15px 5px;
 }
+footer .row section:first-child {
+  border: 1px solid #fff;
+  padding-bottom: 20px;
+  width: 90%;
+  margin: 20px auto;
+}
 
 /* Medium Screen */
 
