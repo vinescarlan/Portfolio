@@ -253,11 +253,6 @@ nav {
 
 /* About Page */
 
-.skill-item img {
-  display: block;
-  margin: 0 auto;
-  padding: 20px;
-}
 #codecademy-profile a {
   color: #fff;
   font-size: 1.3em;
