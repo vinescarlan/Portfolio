@@ -271,6 +271,7 @@ nav {
 footer {
   background: #34495e;
   clear: both;
+  text-align: center;
 }
 footer p {
   color: #fff;
