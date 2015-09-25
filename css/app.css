@@ -233,6 +233,10 @@ nav {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
+.project-item .button-secondary {
+  position: relative;
+  top: 15px;
+}
 .details-link {
   font-size: 1.1em;
   margin-top: 8px;
