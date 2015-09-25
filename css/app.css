@@ -198,6 +198,7 @@ nav {
   height: 35px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
+  border-bottom: 1px solid #ccc;
 }
 .lights {
   float: left;
