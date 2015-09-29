@@ -94,6 +94,10 @@ p.not-supported {
 .page-content section p {
   padding: 0 1em;
 }
+hr {
+  width: 600px;
+  margin: 50px auto 30px;
+}
 
 /* Navigation */
 
