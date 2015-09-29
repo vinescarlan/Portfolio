@@ -392,6 +392,18 @@ footer .social-icons {
   body {
     font-size: 110%;
   }
+  nav {
+    height: 70px;
+  }
+  nav h1 {
+    line-height: 67px;
+    margin-left: 100px;
+    font-size: 25px;
+  }
+  #hamburger {
+    top: 25px;
+    right: 100px;
+  }
   #codecademy-profile.medium-8 {
     height: 80px;
   }
