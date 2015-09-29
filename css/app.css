@@ -392,6 +392,11 @@ footer .social-icons {
   body {
     font-size: 110%;
   }
+  h4 {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding: 30px 320px;
+  }
   nav {
     height: 70px;
   }
