@@ -251,7 +251,7 @@ nav h1 {
 .lights span:nth-child(3) {
   color: #7f4;
 }
-.project-image {
+.project-image, #display {
   height: 100%;
   width: 100%;
   min-height: 170px;
@@ -366,6 +366,15 @@ nav h1 {
 #email {
   color: #00bbdf;
   font-size: 1.4em;
+}
+#display {
+  background: #444;
+}
+#display p {
+  color: #fff;
+  margin: 0 20px;
+  text-align: left;
+  padding: 15px 20px 0 0;
 }
 footer {
   background: #444;
