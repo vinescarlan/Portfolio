@@ -423,14 +423,4 @@ footer .social-icons {
   .page-content section p {
     padding: 0 12em;
   }
-  #codecademy-profile.medium-8 {
-    height: 80px;
-  }
-  #codecademy-profile.medium-8 * {
-    float: left;
-    line-height: 40px;
-  }
-  #codecademy-profile.medium-8 a {
-    float: right;
-  }
 }
