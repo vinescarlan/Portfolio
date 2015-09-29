@@ -361,10 +361,8 @@ nav h1 {
 /* Contact Page */
 
 #email {
+  color: #00bbdf;
   font-size: 1.4em;
-  position: relative;
-  bottom: 8px;
-  z-index: -1;
 }
 #networks img {
   width: 40px;
