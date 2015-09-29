@@ -3,15 +3,14 @@
 html,
 body {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #fff;
+  color: #444;
   margin: 0;
-  background: #1abc9c;
+  background: #fff;
   position: relative;
   width: 100%;
   overflow-x: hidden;
 }
 h1 {
-  color: #34495e;
   font-size: 20px;
   line-height: 50px;
   margin: 0 0 0 15px;
@@ -20,7 +19,7 @@ h4 {
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.4px;
-  background: #34495e;
+  background: #00bbdf;
   line-height: 25px;
   padding: 30px 20px;
 }
@@ -31,12 +30,12 @@ li {
   list-style-type: none;
 }
 a {
-  color: #fff;
+  color: #999;
   text-decoration: none;
   transition: color 0.3s ease-out;
 }
 a:hover {
-  color: #34495e;
+  color: #3ad6e3;
 }
 p {
   letter-spacing: 0.6px;
@@ -44,7 +43,7 @@ p {
   line-height: 25px;
 }
 span {
-  color: #00bbdf;
+  color: #0cf;
 }
 strong {
   letter-spacing: 1.3px;
@@ -69,18 +68,19 @@ aside {
   transition: all 0.4s ease-out;
 }
 .button-primary {
+  color: #fff;
   background: #00bbdf;
 }
 .button-primary:hover {
   color: #fff;
-  background: #00d6ff;
+  background: #0cf;
 }
 .button-secondary {
-  border: 1px solid #fff;
+  border: 1px solid #999;
 }
 .button-secondary:hover {
   color: #fff;
-  background: #34495e;
+  background: #00bbdf;
   border: none;
 }
 .social-icons img {
@@ -97,10 +97,13 @@ p.not-supported {
 nav {
   width: 100%;
   height: 52px;
-  background: #fff;
-  border-bottom: 1.8px solid #16a085;
+  background: #00bbdf;
+  border-bottom: 1.8px solid #09ccdd;
   position: fixed;
   z-index: 99;
+}
+nav h1 {
+  color: #fff;
 }
 #hamburger {
   width: 27px;
@@ -118,7 +121,7 @@ nav {
   width: 25px;
   height: 4px;
   border-radius: 5px;
-  background: #444;
+  background: #fff;
   transition: all 0.3s ease-out;
   position: absolute;
   z-index: 100;
@@ -203,7 +206,7 @@ nav {
 .mac-window {
   margin: 10px;
   border-radius: 3px;
-  box-shadow: 0px 0px 10px #34495e;
+  box-shadow: 1px 1px 5px #34495e;
 }
 .mac-window .top-part {
   background: #ecf0f1;
@@ -358,9 +361,12 @@ nav {
   border: 1px solid #fff;
 }
 footer {
-  background: #34495e;
+  background: #444;
   clear: both;
   text-align: center;
+}
+footer h3 {
+  color: #fff;
 }
 footer p {
   color: #fff;
@@ -372,7 +378,7 @@ footer p {
 footer .row section:first-child {
   border: 2px solid #fff;
   padding-bottom: 20px;
-  margin: 20px auto 0;
+  margin: 40px auto 0;
 }
 footer .social-icons {
   background: #00bbdf;
