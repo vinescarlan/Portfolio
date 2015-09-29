@@ -53,8 +53,7 @@ strong {
   text-transform: uppercase;
 }
 code {
-  font-size: 1.2em;
-  font-family: 'Courier', monospace;
+  font: 1.2em 'Courier', monospace;
 }
 aside {
   color: #fff;
