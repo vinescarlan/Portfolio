@@ -53,7 +53,8 @@ strong {
   text-transform: uppercase;
 }
 code {
-  font-size: 1.3em;
+  font-size: 1.2em;
+  font-family: 'Courier', monospace;
 }
 aside {
   color: #fff;
@@ -374,7 +375,18 @@ nav h1 {
   color: #fff;
   margin: 0 20px;
   text-align: left;
-  padding: 15px 20px 0 0;
+  padding: 15px 10px;
+}
+#typing-animation {
+  position: relative;
+}
+#typing-animation img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 30%;
+  left: 42%;
+  cursor: pointer;
 }
 footer {
   background: #444;
