@@ -404,6 +404,9 @@ footer .social-icons {
     top: 25px;
     right: 100px;
   }
+  .page-content {
+    padding-top: 100px;
+  }
   #codecademy-profile.medium-8 {
     height: 80px;
   }
