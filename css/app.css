@@ -91,6 +91,9 @@ aside {
 p.not-supported {
   color: #ff2222;
 }
+.page-content section p {
+  padding: 0 1em;
+}
 
 /* Navigation */
 
@@ -260,6 +263,9 @@ nav h1 {
 
 /* About Page */
 
+#skills article {
+  margin: 20px auto;
+}
 #skills article img {
   width: 100%;
   height: 100%;
@@ -284,7 +290,9 @@ nav h1 {
   width: 110px;
   margin: 0 auto;
 }
-#cup, #plate, #smokes span {
+#cup,
+#plate,
+#smokes span {
   position: absolute;
   background: #00bbdf;
 }
@@ -411,6 +419,9 @@ footer .social-icons {
   }
   .page-content {
     padding-top: 100px;
+  }
+  .page-content section p {
+    padding: 0 12em;
   }
   #codecademy-profile.medium-8 {
     height: 80px;
