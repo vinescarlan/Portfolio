@@ -1,0 +1,26 @@
+[
+	{
+		"liveLink": "vinescarlan.ml/flashcards/index.html",
+		"img": "img/flashcards.jpg",
+		"title": "FlashCards",
+		"description": "A simple web-based Flashcard app that you can use to test your web skills and knowledge.",
+		"technologies": ["HTML5", "CSS3", "SASS / SCSS", "Vanilla JavaScript", "AJAX", "JSON"],
+		"source": "github.com/vinescarlan/FlashCards"
+	},
+	{
+		"liveLink": "vinescarlan.ml/paintthat/index.html",
+		"img": "img/paintthat.jpg",
+		"title": "PaintThat",
+		"description": "A simple painting web application built with HTML5 canvas, JavaScript, JQuery & Foundation 5 sliders.",
+		"technologies": ["HTML5 (with canvas element)", "CSS3", "JavaScript", "JQuery", "Foundation 5 sliders"],
+		"source": "github.com/vinescarlan/PaintThat"
+	},
+	{
+		"liveLink": "vinescarlan.ml/shutterbugg/index.html",
+		"img": "img/shutterbugg.jpg",
+		"title": "Shutterbugg",
+		"description": "Shutterbugg landing page built with Foundation 5 (i.e. originally uses Bootstrap grid system and button.",
+		"technologies": ["HTML5", "CSS3", "JavaScript", "Modernizr", "Foundation 5"],
+		"source": "github.com/vinescarlan/Shutterbugg"
+	}
+]
