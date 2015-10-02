@@ -3,7 +3,7 @@
 	// Get hamburger icon
 	var menuIcon = document.getElementById('hamburger');
 	var body = document.getElementsByTagName('body')[0];
-	
+
 	// Add a classname on body so that off-canvas will fade to left
 	menuIcon.addEventListener('click', function () {
 		if (body.className === undefined || body.className === "")
@@ -51,3 +51,14 @@
 		typingAnimation(); // Run animation
 	};
 })();
+
+var xhttp = new XMLHttpRequest();
+
+xhttp.onreadystatechange = function () {
+	if (xhttp.readyState == 4 && xhttp.status == 200) {
+		var project = xhttp.responseText;
+	}
+};
+
+xhttp.open("GET", "js/project_items.json", true);
+xhttp.send(null);
