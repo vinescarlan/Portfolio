@@ -22,5 +22,13 @@
 		"description": "Shutterbugg landing page built with Foundation 5 (i.e. originally uses Bootstrap grid system and button.",
 		"technologies": ["HTML5", "CSS3", "JavaScript", "Modernizr", "Foundation 5"],
 		"source": "github.com/vinescarlan/Shutterbugg"
+	},
+	{
+		"liveLink": "vinescarlan.ml/locatorui/index.html",
+		"img": "img/locatorui.jpg",
+		"title": "LocatorUI",
+		"description": "A simple, responsive UI that lets you locate branches (i.e. stores, resellers etc.) and nearby branches.",
+		"technologies": ["HTML5", "CSS3", "JavaScript", "AJAX", "JSON"],
+		"source": "github.com/vinescarlan/LocatorUI"
 	}
 ]
